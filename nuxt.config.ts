@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/image', '@nuxt/hints'],
+  modules: ['@nuxt/image', '@nuxt/hints', '@prisma/nuxt'],
   vite: {
     optimizeDeps: {
       include: ['@vue/devtools-core', '@vue/devtools-kit'],
