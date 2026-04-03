@@ -3,7 +3,7 @@
     <div class="app-header__inner">
       <div class="app-header__main">
         <NuxtLink class="app-header__brand" to="/">
-          <NuxtImg src="/logo.png" alt="cFAQ Logo" />
+          <NuxtImg src="/logo.png" alt="cFAQ Logo" aria-label="cFAQ Logo" />
           <div class="faq-com">
             <span class="faq">collegefaqs.</span>
             <span class="com">com</span>
