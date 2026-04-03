@@ -94,3 +94,19 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.whatsapp {
+  background: #20bc61;
+
+  &:hover {
+    background: #20bc61;
+  }
+}
+
+.call-now {
+  background: #f44303;
+
+  &:hover {
+    background: #ff4303;
+  }
+}

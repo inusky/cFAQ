@@ -1,9 +1,14 @@
 <template>
   <header class="app-header">
-    <div class="app-header__inner">
+    <div class="app-header__inner container">
       <div class="app-header__main">
         <NuxtLink class="app-header__brand" to="/">
-          <NuxtImg src="/logo.png" alt="cFAQ Logo" aria-label="cFAQ Logo" />
+          <NuxtImg
+            src="https://collegefaqs-r2.skyinnk-api.workers.dev/?key=logo.png"
+            alt="cFAQ Logo"
+            aria-label="cFAQ Logo"
+            preload
+          />
           <div class="faq-com">
             <span class="faq">collegefaqs.</span>
             <span class="com">com</span>
@@ -47,7 +52,7 @@
       </nav>
 
       <nav class="app-header__contact-links" aria-label="Contact">
-        <button class="whatsapp" @click="redirectToWhatsapp()">WhatsApp</button>
+        <button class="whatsapp" @click="redirectToWhatsapp">WhatsApp</button>
         <button class="call-now">Call Now</button>
       </nav>
     </div>
