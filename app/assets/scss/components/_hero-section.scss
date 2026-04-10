@@ -14,7 +14,7 @@
   }
 
   &__content {
-    flex: 1 1 600px;
+    flex: 1 1 450px;
     text-align: center;
 
     display: flex;
@@ -63,7 +63,7 @@
   }
 }
 
-@media (max-width: calc($mobileL - 100px)) {
+@media (max-width: calc($mobileP)) {
   .hero-section {
     &__content {
       text-align: left;
